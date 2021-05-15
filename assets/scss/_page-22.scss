@@ -1,0 +1,27 @@
+.page-22 {
+    height: 90vh;
+    background: url(../img/growth\ and\ innovation\ -\ 5.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100%;
+
+
+    .container {
+        height: 100%;
+        color: #fff;
+        @include flex(center, flex-end, column);
+        text-align: right;
+        
+        .text {
+            padding-top: 1rem;
+            h1 {
+                font-size: clamp(3rem, 10vw, 8rem);
+            }
+            p {
+                font-size: 1.4rem;
+                padding: 0;
+                padding-bottom: 3rem;
+            }
+        }
+    }
+}

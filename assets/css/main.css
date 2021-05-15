@@ -133,3 +133,118 @@ nav .collapse form input {
   padding: 0;
   padding-bottom: 4rem;
 }
+
+.page-19 {
+  height: 90vh;
+  background: url(../img/growth\ and\ innovation\ -\ 2.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+.page-19 .container {
+  height: 100%;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+.page-19 .container .text {
+  padding-top: 1rem;
+}
+.page-19 .container .text h1 {
+  font-size: clamp(3rem, 10vw, 8rem);
+}
+.page-19 .container .text p {
+  font-size: 1.4rem;
+  padding: 0;
+  padding-bottom: 4rem;
+}
+
+.page-20 {
+  height: 90vh;
+  background: url(../img/growth\ and\ innovation\ -\ 3.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100% 100%;
+  background-color: #003f79;
+}
+.page-20 .container {
+  height: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+}
+.page-20 .container .text {
+  padding-top: 1rem;
+}
+.page-20 .container .text h1 {
+  font-size: clamp(3rem, 10vw, 8rem);
+}
+.page-20 .container .text p {
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 0;
+  padding-bottom: 3rem;
+}
+
+.page-21 {
+  height: 90vh;
+  background: url(../img/growth\ and\ innovation\ -\ 4\ -\ iStock-923038872.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100%;
+}
+.page-21 .container {
+  height: 100%;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+.page-21 .container .text {
+  padding-top: 1rem;
+}
+.page-21 .container .text h1 {
+  font-size: clamp(3rem, 10vw, 8rem);
+}
+.page-21 .container .text p {
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 0;
+  padding-bottom: 3rem;
+}
+
+.page-22 {
+  height: 90vh;
+  background: url(../img/growth\ and\ innovation\ -\ 5.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100%;
+}
+.page-22 .container {
+  height: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: right;
+}
+.page-22 .container .text {
+  padding-top: 1rem;
+}
+.page-22 .container .text h1 {
+  font-size: clamp(3rem, 10vw, 8rem);
+}
+.page-22 .container .text p {
+  font-size: 1.4rem;
+  padding: 0;
+  padding-bottom: 3rem;
+}
