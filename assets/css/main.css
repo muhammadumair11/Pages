@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 990px) {
+  .container p {
+    padding: 0 15rem;
+  }
+}
+.container .headline {
+  text-align: center;
+  padding: 2rem 0;
+  color: #00013b;
+}
+.container .headline h1 {
+  font-size: 3rem;
+}
+.container .headline p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.container .small-paragraph p {
+  text-align: center;
+  color: #00013b;
+  font-weight: 500;
+}
+.container .scroll-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .scroll-down img {
+  width: 2rem;
+  animation: movement 2s ease-in-out infinite;
+}
+.container .scroll-down p {
+  padding: 0 1rem;
+  margin: 1rem 0;
+}
+@keyframes movement {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.red-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #8d0000;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+nav {
+  background-color: #00013b;
+}
+nav .navbar-brand {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  color: white !important;
+}
+nav .navbar-nav .nav-item .nav-link {
+  color: white;
+  font-size: .77rem;
+  padding-right: 1rem;
+}
+nav .collapse form input {
+  border-radius: 20px;
+}
+
+.page-17 {
+  height: 90vh;
+  background: url(../img/growth\ and\ innovation\ -\ 1\ -\ iStock-1201050386.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+.page-17 .container {
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: right;
+}
+.page-17 .container .text h1 {
+  font-size: clamp(3rem, 10vw, 8rem);
+}
+.page-17 .container .text p {
+  font-size: 1.4rem;
+  padding: 0;
+  padding-bottom: 4rem;
+}
+
+.page-18 {
+  height: 90vh;
+  background: url(../img/growth\ and\ innovation\ -\ 2.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+.page-18 .container {
+  height: 100%;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+.page-18 .container .text {
+  padding-top: 1rem;
+}
+.page-18 .container .text h1 {
+  font-size: clamp(3rem, 10vw, 8rem);
+}
+.page-18 .container .text p {
+  font-size: 1.4rem;
+  padding: 0;
+  padding-bottom: 4rem;
+}

@@ -1,0 +1,25 @@
+nav {
+    background-color: $primary-color;
+    .navbar-brand {
+        margin-left: 2rem;
+        font-size: 1.5rem;
+        color: white !important;
+    }
+
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                color: white;
+                font-size: .77rem;
+                padding-right: 1rem;
+            }
+        }
+    }
+    .collapse {
+        form {
+            input {
+                border-radius: 20px;
+            }
+        }
+    }
+}

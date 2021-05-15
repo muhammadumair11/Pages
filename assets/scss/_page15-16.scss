@@ -1,0 +1,74 @@
+$primary-color: rgb(0,1,59);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.container {
+    @media (min-width: 990px) {
+        p {
+            padding: 0 15rem;
+        }
+    }
+    .headline {
+        text-align: center;
+        padding: 2rem 0;
+        color: $primary-color;
+        h1 {
+            font-size: 3rem;
+        }
+        p {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+    }
+    .small-paragraph {
+        p {
+            text-align: center;
+            color: $primary-color;
+            font-weight: 500;
+        }
+    }
+    .scroll-down {
+        @include flex();
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        img {
+            width: 2rem;
+            animation: movement 2s ease-in-out infinite;
+        }
+        p {
+            padding: 0 1rem;
+            margin: 1rem 0;
+        }
+
+        @keyframes movement {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(5px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+    }
+}
+
+
+.red-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(141, 0, 0);
+    color: white;
+    padding: 1rem 2rem;
+}
