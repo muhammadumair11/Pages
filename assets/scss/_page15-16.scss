@@ -4,6 +4,7 @@ $primary-color: rgb(0,1,59);
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: $regular;
 }
 
 
@@ -21,6 +22,7 @@ $primary-color: rgb(0,1,59);
         color: $primary-color;
         h1 {
             font-size: 3rem;
+            font-family: $regular;
         }
         p {
             font-size: 1.2rem;
@@ -31,6 +33,7 @@ $primary-color: rgb(0,1,59);
         p {
             text-align: center;
             color: $primary-color;
+            font-family: $regular;
             font-weight: 500;
         }
     }

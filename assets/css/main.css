@@ -1,7 +1,53 @@
+@font-face {
+  font-family: 'Silas Sans Bold';
+  src: url("../fonts/fssilassansweb-bold-webfont.eot");
+  src: url("../fonts/fssilassansweb-bold-webfont.eot") format("embedded-opentype"), url("../fonts/fssilassansweb-bold-webfont.woff2") format("woff"), url("../fonts/fssilassansweb-bold-webfont.ttf") format("truetype"), url("../fonts/fssilassansweb-bold-webfont.svg") format("svg");
+}
+@font-face {
+  font-family: 'Silas Sans Bold Italic';
+  src: url("../fonts/fssilassansweb-bolditalic-webfont.eot");
+  src: url("../fonts/fssilassansweb-bolditalic-webfont.eot") format("embedded-opentype"), url("../fonts/fssilassansweb-bolditalic-webfont.woff2") format("woff"), url("../fonts/fssilassansweb-bolditalic-webfont.ttf") format("truetype"), url("../fonts/fssilassansweb-bolditalic-webfont.svg") format("svg");
+}
+@font-face {
+  font-family: 'Silas Sans Extra Bold';
+  src: url("../fonts/fssilassansweb-extrabold-webfont.eot");
+  src: url("../fonts/fssilassansweb-extrabold-webfont.eot") format("embedded-opentype"), url("../fonts/fssilassansweb-extrabold-webfont.woff2") format("woff"), url("../fonts/fssilassansweb-extrabold-webfont.ttf") format("truetype"), url("../fonts/fssilassansweb-extrabold-webfont.svg") format("svg");
+}
+@font-face {
+  font-family: 'Silas Sans Extra Bold Italic';
+  src: url("../fonts/fssilassansweb-extrabolditalic-webfont.eot");
+  src: url("../fonts/fssilassansweb-extrabolditalic-webfont.eot") format("embedded-opentype"), url("../fonts/fssilassansweb-extrabolditalic-webfont.woff2") format("woff"), url("../fonts/fssilassansweb-extrabolditalic-webfont.ttf") format("truetype"), url("../fonts/fssilassansweb-extrabolditalic-webfont.svg") format("svg");
+}
+@font-face {
+  font-family: 'Silas Sans Italic';
+  src: url("../fonts/fssilassansweb-italic-webfont.eot");
+  src: url("../fonts/fssilassansweb-italic-webfont.eot") format("embedded-opentype"), url("../fonts/fssilassansweb-italic-webfont.woff2") format("woff"), url("../fonts/fssilassansweb-italic-webfont.ttf") format("truetype"), url("../fonts/fssilassansweb-italic-webfont.svg") format("svg");
+}
+@font-face {
+  font-family: 'Silas Sans Light';
+  src: url("../fonts/fssilassansweb-light-webfont.eot");
+  src: url("../fonts/fssilassansweb-light-webfont.eot") format("embedded-opentype"), url("../fonts/fssilassansweb-light-webfont.woff2") format("woff"), url("../fonts/fssilassansweb-light-webfont.ttf") format("truetype"), url("../fonts/fssilassansweb-light-webfont.svg") format("svg");
+}
+@font-face {
+  font-family: 'Silas Sans Regular';
+  src: url("../fonts/fssilassansweb-regular-webfont.eot");
+  src: url("../fonts/fssilassansweb-regular-webfont.eot") format("embedded-opentype"), url("../fonts/fssilassansweb-regular-webfont.woff2") format("woff"), url("../fonts/fssilassansweb-regular-webfont.ttf") format("truetype"), url("../fonts/fssilassansweb-regular-webfont.svg") format("svg");
+}
+@font-face {
+  font-family: 'Silas Sans Thin';
+  src: url("../fonts/fssilassansweb-thin-webfont.eot");
+  src: url("../fonts/fssilassansweb-thin-webfont.eot") format("embedded-opentype"), url("../fonts/fssilassansweb-thin-webfont.woff2") format("woff"), url("../fonts/fssilassansweb-thin-webfont.ttf") format("truetype"), url("../fonts/fssilassansweb-thin-webfont.svg") format("svg");
+}
+@font-face {
+  font-family: 'Silas Sans Thin Italic';
+  src: url("../fonts/fssilassansweb-thinitalic-webfont.eot");
+  src: url("../fonts/fssilassansweb-thinitalic-webfont.eot") format("embedded-opentype"), url("../fonts/fssilassansweb-thinitalic-webfont.woff2") format("woff"), url("../fonts/fssilassansweb-thinitalic-webfont.ttf") format("truetype"), url("../fonts/fssilassansweb-thinitalic-webfont.svg") format("svg");
+}
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Silas Sans Regular";
 }
 
 @media (min-width: 990px) {
@@ -16,6 +62,7 @@
 }
 .container .headline h1 {
   font-size: 3rem;
+  font-family: "Silas Sans Regular";
 }
 .container .headline p {
   font-size: 1.2rem;
@@ -24,6 +71,7 @@
 .container .small-paragraph p {
   text-align: center;
   color: #00013b;
+  font-family: "Silas Sans Regular";
   font-weight: 500;
 }
 .container .scroll-down {
