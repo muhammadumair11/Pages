@@ -1,6 +1,6 @@
 .page-21 {
     height: 90vh;
-    background: url(../img/growth\ and\ innovation\ -\ 4\ -\ iStock-923038872.jpg);
+    background: url(../img/growth\ and\ innovation\ -\ 5.svg);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 100%;
@@ -8,17 +8,16 @@
 
     .container {
         height: 100%;
-        color: #000;
-        @include flex(center, flex-start, column);
-        text-align: left;
-
+        color: #fff;
+        @include flex(center, flex-end, column);
+        text-align: right;
+        
         .text {
             padding-top: 1rem;
             h1 {
                 font-size: clamp(3rem, 10vw, 8rem);
             }
             p {
-                text-align: center;
                 font-size: 1.4rem;
                 padding: 0;
                 padding-bottom: 3rem;
