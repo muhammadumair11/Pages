@@ -104,7 +104,7 @@
   }
 }
 .red-box {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   background-color: #8d0000;
@@ -334,6 +334,27 @@ nav .collapse form input {
   margin: 0;
   color: #272727;
 }
-.container-fluid .row .card .col-text h1 {
+.container-fluid .row .col-text blockquote {
   color: #00013b;
+}
+.container-fluid .row .col-text blockquote::before {
+  content: '\201c';
+  font-size: 14rem;
+  position: absolute;
+}
+.container-fluid .row .col-text blockquote h1 {
+  color: #00013b;
+  padding: 5rem 0 0 8rem;
+  font-size: clamp(1.2rem, 4vw, 3rem);
+}
+.container-fluid .row .col-text blockquote h1 P {
+  font-size: 1.5rem;
+  padding: 2rem 0;
+}
+.container-fluid .row .col-text blockquote h1 P .fa {
+  background-color: #00013b;
+  color: white;
+  padding: .5rem 1rem;
+  border-radius: 100px;
+  margin: 0 1rem;
 }

@@ -61,12 +61,35 @@
                     color: rgb(39, 39, 39);
                 }
             }
-            .col-text {
+        }
+        .col-text {
+            blockquote{
+                color: $primary-color;
+                &::before {
+                    content: '\201c';
+                    font-size: 14rem;
+                    position: absolute;
+                }
                 h1 {
                     color: $primary-color;
-                    
+                    padding: 5rem 0 0 8rem;
+                    font-size: clamp(1.2rem, 4vw, 3rem);
+
+                    P {
+                        font-size: 1.5rem;
+                        padding: 2rem 0;
+
+                        .fa {
+                            background-color: $primary-color;
+                            color: white;
+                            padding: .5rem 1rem;
+                            border-radius: 100px;
+                            margin: 0 1rem;
+                        }
+                    }
                 }
             }
+            
         }
     }
 }
