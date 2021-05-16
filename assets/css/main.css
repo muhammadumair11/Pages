@@ -268,3 +268,72 @@ nav .collapse form input {
   padding: 0;
   padding-bottom: 3rem;
 }
+
+.container-fluid {
+  background-color: #aaa;
+}
+.container-fluid .row {
+  padding: 2rem 0 0 0;
+}
+.container-fluid .row form {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.container-fluid .row form select {
+  padding: .6rem 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  outline: none;
+}
+.container-fluid .row form div input[type=text] {
+  padding: .6rem;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  border-radius: 5px 0px 0 5px;
+}
+.container-fluid .row form div button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #444444;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+.container-fluid .row form div button:hover {
+  background: #0b7dda;
+}
+.container-fluid .row form div button::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container-fluid .row .card {
+  background-color: transparent;
+  border: none;
+}
+.container-fluid .row .card .text {
+  margin: .7rem 0;
+}
+.container-fluid .row .card .text h1 {
+  font-size: 1.5rem;
+  color: #084b81;
+  font-family: "Silas Sans Bold";
+}
+.container-fluid .row .card .text P {
+  margin: 0;
+  color: #272727;
+}
+.container-fluid .row .card .col-text h1 {
+  color: #00013b;
+}

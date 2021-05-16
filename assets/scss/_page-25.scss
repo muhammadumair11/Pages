@@ -1,3 +1,72 @@
 .container-fluid {
-    
+    background-color: #aaa;
+    .row {
+        padding: 2rem 0 0 0;
+        form {
+            width: 100%;
+            @include flex(space-around, center, row);
+            select {
+                padding: .6rem 2rem;
+                border-radius: 5px;
+                border: none;
+                background-color: #fff;
+                outline: none;
+            }
+            div {
+                input[type=text] {
+                    padding: .6rem;
+                    font-size: 17px;
+                    border: 1px solid grey;
+                    float: left;
+                    width: 80%;
+                    background: #f1f1f1;
+                    border-radius: 5px 0px 0 5px;
+                }
+                button {
+                    float: left;
+                    width: 20%;
+                    padding: 10px;
+                    background: rgb(68, 68, 68);
+                    color: white;
+                    font-size: 17px;
+                    border: 1px solid grey;
+                    border-left: none;
+                    cursor: pointer;
+
+                    border-radius: 0 5px 5px 0;
+
+                    &:hover {
+                        background: #0b7dda;
+                    }
+                    &::after {
+                        content: "";
+                        clear: both;
+                        display: table;
+                    }
+                }
+            }
+        }
+        .card {
+            background-color: transparent;
+            border: none;
+            .text {
+                margin: .7rem 0;
+                h1 {
+                    font-size: 1.5rem;
+                    color: #084b81;
+                    font-family: $bold;
+                }
+                P {
+                    margin: 0;
+                    color: rgb(39, 39, 39);
+                }
+            }
+            .col-text {
+                h1 {
+                    color: $primary-color;
+                    
+                }
+            }
+        }
+    }
 }
