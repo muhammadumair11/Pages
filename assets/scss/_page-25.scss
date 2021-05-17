@@ -4,7 +4,9 @@
         padding: 2rem 0 0 0;
         form {
             width: 100%;
-            @include flex(space-around, center, row);
+            @include flex(space-between, center, row);
+            padding: 0 3rem;
+
             select {
                 padding: .6rem 2rem;
                 border-radius: 5px;

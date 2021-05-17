@@ -1,0 +1,70 @@
+.container-fluid.page-27 {
+  background-color: #012ca1;
+  
+  .row {
+    padding: 0;
+    .bg-image {
+      background: url("../img/half-page-img.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+    .container {
+      .headline {
+        h1 {
+          font-size: clamp(3rem, 5vw, 4rem);
+          text-align: left;
+          color: white;
+        }
+      }
+      .small-paragraph {
+        p {
+          padding: 0;
+          text-align: left;
+          color: white;
+          font-size: 1.3rem;
+        }
+      }
+      .brand-info {
+        .row {
+          .img {
+            img {
+              width: 100%;
+            }
+          }
+          .info {
+            @include flex(flex-end, flex-start, column);
+            i,a {
+              color: rgb(0, 155, 245);
+            }
+            i {
+              font-size: 2rem;
+              margin: 0 5px 0 0 ;
+            }
+            a {
+              font-size: 1.4rem;
+            }
+            hr {
+              width: 100%;
+              background-color: #aaa;
+              margin: .5rem 0;
+            }
+            .title {
+              font-size: 1rem ;
+              color: #aaa;
+            }
+            .status {
+              margin: 0 .5rem;
+              color: white;
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+      .text {
+        color: white;
+        font-size: 1.3rem;
+        margin: 2rem 0 ;
+      }
+    }
+  }
+}

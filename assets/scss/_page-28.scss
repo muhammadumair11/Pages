@@ -1,0 +1,65 @@
+.container-fluid.page-28 {
+  background-color: #012ca1;
+  .headline {
+    h1 {
+      font-size: clamp(3rem, 5vw, 4rem);
+      text-align: left;
+      color: white;
+      padding: 2rem 2rem;
+    }
+    img {
+      width: 50%;
+    }
+  }
+  .row {
+    padding: 0;
+    .container {
+      .brand-info {
+        .row {
+          .img {
+            img {
+              width: 100%;
+            }
+          }
+          .info {
+            @include flex(flex-end, flex-start, column);
+            margin: 1rem 0 ;
+            i,a {
+              color: rgb(0, 155, 245);
+            }
+            i {
+              font-size: 2rem;
+              margin: 0 5px 0 0 ;
+            }
+            a {
+              font-size: 1.4rem;
+            }
+            hr {
+              width: 100%;
+              background-color: #aaa;
+              margin: .5rem 0;
+            }
+            .title {
+              font-size: 1rem ;
+              color: #aaa;
+            }
+            .status {
+              margin: 0 .5rem;
+              color: white;
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
+    .side-content {
+      .text {
+        p {
+          color: white;
+          font-size: 1.3rem;
+          margin: 2rem 0 ;
+        }
+      }
+    }
+  }
+}

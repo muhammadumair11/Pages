@@ -278,9 +278,10 @@ nav .collapse form input {
 .container-fluid .row form {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  padding: 0 3rem;
 }
 .container-fluid .row form select {
   padding: .6rem 2rem;
@@ -357,4 +358,169 @@ nav .collapse form input {
   padding: .5rem 1rem;
   border-radius: 100px;
   margin: 0 1rem;
+}
+
+.container-fluid.page-26 {
+  background-color: #012ca1;
+}
+.container-fluid.page-26 .container .headline h1 {
+  font-size: clamp(3rem, 5vw, 4rem);
+  text-align: left;
+  color: white;
+}
+.container-fluid.page-26 .container .small-paragraph p {
+  padding: 0;
+  text-align: left;
+  color: white;
+  font-size: 1.3rem;
+}
+.container-fluid.page-26 .row .card {
+  border: none;
+  margin: 1rem 0;
+}
+.container-fluid.page-26 .row .card .content {
+  background-color: #00013b;
+  padding: 1.3rem;
+  position: relative;
+  border-radius: 5px;
+}
+.container-fluid.page-26 .row .card .content img {
+  width: 50%;
+}
+.container-fluid.page-26 .row .card .content .text {
+  margin: 0.7rem 0;
+}
+.container-fluid.page-26 .row .card .content .text h1 {
+  font-size: 2rem;
+  color: #fff;
+  font-family: "Silas Sans Regular";
+}
+.container-fluid.page-26 .row .card .content .text P {
+  margin: 0;
+  color: #e7e7e7;
+  font-size: clamp(1rem, 4vw, 1.6rem);
+  font-family: "Silas Sans Extra Bold";
+}
+.container-fluid.page-26 .row .card .content .text .tag {
+  background-color: yellow;
+  position: absolute;
+  padding: 0.5rem 1rem;
+  top: 0;
+  right: 0;
+}
+
+.container-fluid.page-27 {
+  background-color: #012ca1;
+}
+.container-fluid.page-27 .row {
+  padding: 0;
+}
+.container-fluid.page-27 .row .bg-image {
+  background: url("../img/half-page-img.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.container-fluid.page-27 .row .container .headline h1 {
+  font-size: clamp(3rem, 5vw, 4rem);
+  text-align: left;
+  color: white;
+}
+.container-fluid.page-27 .row .container .small-paragraph p {
+  padding: 0;
+  text-align: left;
+  color: white;
+  font-size: 1.3rem;
+}
+.container-fluid.page-27 .row .container .brand-info .row .img img {
+  width: 100%;
+}
+.container-fluid.page-27 .row .container .brand-info .row .info {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.container-fluid.page-27 .row .container .brand-info .row .info i, .container-fluid.page-27 .row .container .brand-info .row .info a {
+  color: #009bf5;
+}
+.container-fluid.page-27 .row .container .brand-info .row .info i {
+  font-size: 2rem;
+  margin: 0 5px 0 0;
+}
+.container-fluid.page-27 .row .container .brand-info .row .info a {
+  font-size: 1.4rem;
+}
+.container-fluid.page-27 .row .container .brand-info .row .info hr {
+  width: 100%;
+  background-color: #aaa;
+  margin: .5rem 0;
+}
+.container-fluid.page-27 .row .container .brand-info .row .info .title {
+  font-size: 1rem;
+  color: #aaa;
+}
+.container-fluid.page-27 .row .container .brand-info .row .info .status {
+  margin: 0 .5rem;
+  color: white;
+  font-size: 1rem;
+}
+.container-fluid.page-27 .row .container .text {
+  color: white;
+  font-size: 1.3rem;
+  margin: 2rem 0;
+}
+
+.container-fluid.page-28 {
+  background-color: #012ca1;
+}
+.container-fluid.page-28 .headline h1 {
+  font-size: clamp(3rem, 5vw, 4rem);
+  text-align: left;
+  color: white;
+  padding: 2rem 2rem;
+}
+.container-fluid.page-28 .headline img {
+  width: 50%;
+}
+.container-fluid.page-28 .row {
+  padding: 0;
+}
+.container-fluid.page-28 .row .container .brand-info .row .img img {
+  width: 100%;
+}
+.container-fluid.page-28 .row .container .brand-info .row .info {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+.container-fluid.page-28 .row .container .brand-info .row .info i, .container-fluid.page-28 .row .container .brand-info .row .info a {
+  color: #009bf5;
+}
+.container-fluid.page-28 .row .container .brand-info .row .info i {
+  font-size: 2rem;
+  margin: 0 5px 0 0;
+}
+.container-fluid.page-28 .row .container .brand-info .row .info a {
+  font-size: 1.4rem;
+}
+.container-fluid.page-28 .row .container .brand-info .row .info hr {
+  width: 100%;
+  background-color: #aaa;
+  margin: .5rem 0;
+}
+.container-fluid.page-28 .row .container .brand-info .row .info .title {
+  font-size: 1rem;
+  color: #aaa;
+}
+.container-fluid.page-28 .row .container .brand-info .row .info .status {
+  margin: 0 .5rem;
+  color: white;
+  font-size: 1rem;
+}
+.container-fluid.page-28 .row .side-content .text p {
+  color: white;
+  font-size: 1.3rem;
+  margin: 2rem 0;
 }

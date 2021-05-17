@@ -1,0 +1,58 @@
+.container-fluid.page-26 {
+  background-color: #012ca1;
+  .container {
+      .headline {
+          h1 {
+              font-size: clamp(3rem, 5vw, 4rem);
+              text-align: left;
+              color: white;
+            }
+        }
+        .small-paragraph {
+            p {
+                padding: 0;
+              text-align: left;
+              color: white;
+              font-size: 1.3rem;
+          }
+      }
+  }
+  .row {
+    .card {
+        border: none;
+        margin: 1rem 0;
+        
+        .content {
+            background-color: $primary-color;
+            padding: 1.3rem;
+            position: relative;
+            border-radius: 5px;
+                img {
+                width: 50%;
+                }
+
+        .text {
+          margin: 0.7rem 0;
+          h1 {
+            font-size: 2rem;
+            color: #fff;
+            font-family: $regular;
+          }
+          P {
+            margin: 0;
+            color: rgb(231, 231, 231);
+            font-size: clamp(1rem, 4vw, 1.6rem);
+            font-family: $extra-bold;
+          }
+          .tag {
+            background-color: yellow;
+            position: absolute;
+            padding: 0.5rem 1rem;
+            top: 0;
+            right: 0;
+          }
+        }
+      }
+    }
+  }
+}
