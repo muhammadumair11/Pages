@@ -332,7 +332,7 @@ nav .collapse form button i {
   background: #868686;
   color: white;
   font-size: 17px;
-  border: 1px solid grey;
+  border: none;
   border-left: none;
   cursor: pointer;
   border-radius: 0 5px 5px 0;
