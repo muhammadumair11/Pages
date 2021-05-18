@@ -22,17 +22,17 @@ $secondary-color: #203477;
         padding: 2rem 0;
         color: $primary-color;
         h1 {
-            font-size: 3rem;
+            font-size: 4rem;
             font-family: $regular;
         }
         p {
-            font-size: 1.2rem;
-            font-weight: bold;
+            font-size: 2rem;
         }
     }
     .small-paragraph {
         p {
             text-align: center;
+            font-size: 1.2rem;
             color: $primary-color;
             font-family: $regular;
             font-weight: 500;

@@ -61,15 +61,15 @@
   color: #00013b;
 }
 .container .headline h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: "Silas Sans Regular";
 }
 .container .headline p {
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 2rem;
 }
 .container .small-paragraph p {
   text-align: center;
+  font-size: 1.2rem;
   color: #00013b;
   font-family: "Silas Sans Regular";
   font-weight: 500;
@@ -166,7 +166,7 @@ nav .collapse form button i {
   text-align: right;
 }
 .page-17 .container .text h1 {
-  font-size: clamp(3rem, 10vw, 10rem);
+  font-size: clamp(3rem, 10vw, 20rem);
 }
 .page-17 .container .text p {
   font-size: 2.7rem;
@@ -224,6 +224,7 @@ nav .collapse form button i {
   padding-top: 1rem;
 }
 .page-19 .container .text h1 {
+  text-align: center;
   font-size: clamp(3rem, 10vw, 20rem);
 }
 .page-19 .container .text p {
@@ -304,17 +305,19 @@ nav .collapse form button i {
   flex-direction: row;
 }
 .container-fluid .row form .select {
-  margin: 0 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  margin: 0 0 0 1.2rem;
 }
 .container-fluid .row form .select .dropdown {
+  background-color: rgba(255, 255, 255, 0.466);
+  border-radius: 5px;
   margin: 0 .5rem;
 }
 .container-fluid .row form .select .dropdown .btn {
-  padding: .5rem 2rem;
+  padding: 1rem 1rem;
 }
 .container-fluid .row form .select .dropdown a {
   color: #aaa;
@@ -324,7 +327,7 @@ nav .collapse form button i {
   font-family: "Silas Sans Bold";
 }
 .container-fluid .row form div input[type=text] {
-  padding: 10px;
+  padding: 1rem;
   font-size: 17px;
   border: none;
   float: left;
@@ -335,7 +338,7 @@ nav .collapse form button i {
 .container-fluid .row form div button {
   float: left;
   width: 20%;
-  padding: 10px;
+  padding: 1rem;
   background: #868686;
   color: white;
   font-size: 17px;
@@ -361,7 +364,7 @@ nav .collapse form button i {
 }
 .container-fluid .row .card .text h1 {
   font-size: 1.5rem;
-  color: #084b81;
+  color: #0047bb;
   font-family: "Silas Sans Bold";
 }
 .container-fluid .row .card .text P {
@@ -378,37 +381,52 @@ nav .collapse form button i {
 }
 .container-fluid .row .col-text blockquote h1 {
   color: #00013b;
-  padding: 5rem 0 0 8rem;
+  padding: 2rem 0 0 8rem;
   font-size: clamp(1.2rem, 4vw, 3rem);
 }
-.container-fluid .row .col-text blockquote h1 P {
-  font-size: 1.5rem;
-  padding: 2rem 0;
+.container-fluid .row .col-text blockquote h1 .down-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
-.container-fluid .row .col-text blockquote h1 P .fa {
-  background-color: #00013b;
+.container-fluid .row .col-text blockquote h1 .down-text .fa {
+  background-color: #0047bb;
   color: white;
-  padding: .5rem 1rem;
+  padding: 0 1rem;
   border-radius: 100px;
   margin: 0 1rem;
 }
+.container-fluid .row .col-text blockquote h1 .down-text P {
+  color: #0047bb;
+  font-size: 1.5rem;
+  padding: 2rem 0;
+  width: 100%;
+}
 
 .container-fluid.page-26 {
-  background-color: #203477;
+  background-color: #0047bb;
 }
-.container-fluid.page-26 .container .headline h1 {
+.container-fluid.page-26 .text {
+  padding: 2rem 2rem;
+}
+.container-fluid.page-26 .text .headline h1 {
   font-size: clamp(3rem, 5vw, 4rem);
   text-align: left;
   color: white;
 }
-.container-fluid.page-26 .container .small-paragraph p {
+.container-fluid.page-26 .text .small-paragraph p {
   padding: 0;
   text-align: left;
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 .container-fluid.page-26 .row form {
   margin-left: 2rem;
+}
+.container-fluid.page-26 .row form .select .dropdown {
+  background-color: rgba(255, 255, 255, 0.466);
+  border-radius: 5px;
 }
 .container-fluid.page-26 .row form .select .dropdown a {
   color: #203477;
@@ -418,10 +436,11 @@ nav .collapse form button i {
   margin: 1rem 0;
 }
 .container-fluid.page-26 .row .card .content {
-  background-color: #00013b;
+  background-color: #1e3278;
   padding: 1.3rem;
   position: relative;
   border-radius: 5px;
+  height: 100%;
 }
 .container-fluid.page-26 .row .card .content img {
   width: 50%;
@@ -436,8 +455,8 @@ nav .collapse form button i {
 }
 .container-fluid.page-26 .row .card .content .text P {
   margin: 0;
-  color: #e7e7e7;
-  font-size: clamp(1rem, 4vw, 1.6rem);
+  color: rgba(231, 231, 231, 0.336);
+  font-size: clamp(1rem, 4vw, 1.2rem);
   font-family: "Silas Sans Extra Bold";
 }
 .container-fluid.page-26 .row .card .content .text .tag {

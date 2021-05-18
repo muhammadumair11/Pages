@@ -1,7 +1,8 @@
 .container-fluid.page-26 {
-  background-color: $secondary-color;
-  .container {
-      .headline {
+  background-color: #0047bb;
+      .text {
+        padding: 2rem 2rem ;
+        .headline {
           h1 {
               font-size: clamp(3rem, 5vw, 4rem);
               text-align: left;
@@ -13,16 +14,18 @@
                 padding: 0;
               text-align: left;
               color: white;
-              font-size: 1.3rem;
+              font-size: 1.6rem;
           }
       }
-  }
+      }
   .row {
     
     form {
       margin-left: 2rem;
       .select {
         .dropdown {
+          background-color: rgba(255, 255, 255, 0.466);
+          border-radius: 5px;
                 a {
                     color: $secondary-color;
                     
@@ -35,10 +38,11 @@
         margin: 1rem 0;
         
         .content {
-            background-color: $primary-color;
+            background-color: #1e3278;
             padding: 1.3rem;
             position: relative;
             border-radius: 5px;
+            height: 100%;
                 img {
                 width: 50%;
                 }
@@ -52,8 +56,8 @@
           }
           P {
             margin: 0;
-            color: rgb(231, 231, 231);
-            font-size: clamp(1rem, 4vw, 1.6rem);
+            color: rgba(231, 231, 231, 0.336);
+            font-size: clamp(1rem, 4vw, 1.2rem);
             font-family: $extra-bold;
           }
           .tag {
