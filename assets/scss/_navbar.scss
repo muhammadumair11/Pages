@@ -10,6 +10,7 @@ nav {
         .nav-item {
             .nav-link {
                 color: white;
+                font-family: $extra-bold;
                 font-size: .77rem;
                 padding-right: 1rem;
             }
@@ -19,6 +20,25 @@ nav {
         form {
             input {
                 border-radius: 20px;
+                border: none;
+                padding: .2rem 1rem;
+                width: 6rem;
+                background-color: rgb(125, 158, 207);
+
+                &::placeholder {
+                    color: $primary-color;
+                }
+            }
+            button {
+                background-color: transparent;
+                border: none;
+                i {
+                    font-size: 1rem;
+                    color: $primary-color;
+                    position: absolute;
+                    right: 28px;
+                    top: 23px;
+                }
             }
         }
     }

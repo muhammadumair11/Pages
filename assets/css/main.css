@@ -91,6 +91,7 @@
 .container .scroll-down p {
   padding: 0 1rem;
   margin: 1rem 0;
+  color: black;
 }
 @keyframes movement {
   0% {
@@ -122,11 +123,30 @@ nav .navbar-brand {
 }
 nav .navbar-nav .nav-item .nav-link {
   color: white;
+  font-family: "Silas Sans Extra Bold";
   font-size: .77rem;
   padding-right: 1rem;
 }
 nav .collapse form input {
   border-radius: 20px;
+  border: none;
+  padding: .2rem 1rem;
+  width: 6rem;
+  background-color: #7d9ecf;
+}
+nav .collapse form input::placeholder {
+  color: #00013b;
+}
+nav .collapse form button {
+  background-color: transparent;
+  border: none;
+}
+nav .collapse form button i {
+  font-size: 1rem;
+  color: #00013b;
+  position: absolute;
+  right: 28px;
+  top: 23px;
 }
 
 .page-17 {
@@ -146,10 +166,10 @@ nav .collapse form input {
   text-align: right;
 }
 .page-17 .container .text h1 {
-  font-size: clamp(3rem, 10vw, 8rem);
+  font-size: clamp(3rem, 10vw, 10rem);
 }
 .page-17 .container .text p {
-  font-size: 1.4rem;
+  font-size: 2.7rem;
   padding: 0;
   padding-bottom: 4rem;
 }
@@ -163,7 +183,7 @@ nav .collapse form input {
 }
 .page-18 .container {
   height: 100%;
-  color: black;
+  color: #00013b;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -172,12 +192,13 @@ nav .collapse form input {
 }
 .page-18 .container .text {
   padding-top: 1rem;
+  margin-left: -8rem;
 }
 .page-18 .container .text h1 {
-  font-size: clamp(3rem, 10vw, 8rem);
+  font-size: clamp(3rem, 20vw, 15rem);
 }
 .page-18 .container .text p {
-  font-size: 1.4rem;
+  font-size: 3rem;
   padding: 0;
   padding-bottom: 4rem;
 }
@@ -203,11 +224,11 @@ nav .collapse form input {
   padding-top: 1rem;
 }
 .page-19 .container .text h1 {
-  font-size: clamp(3rem, 10vw, 8rem);
+  font-size: clamp(3rem, 10vw, 20rem);
 }
 .page-19 .container .text p {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 3rem;
   padding: 0;
   padding-bottom: 3rem;
 }
@@ -221,7 +242,7 @@ nav .collapse form input {
 }
 .page-20 .container {
   height: 100%;
-  color: #000;
+  color: #00013b;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -232,11 +253,11 @@ nav .collapse form input {
   padding-top: 1rem;
 }
 .page-20 .container .text h1 {
-  font-size: clamp(3rem, 10vw, 8rem);
+  font-size: clamp(3rem, 20vw, 15rem);
 }
 .page-20 .container .text p {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 3rem;
   padding: 0;
   padding-bottom: 3rem;
 }
@@ -261,10 +282,10 @@ nav .collapse form input {
   padding-top: 1rem;
 }
 .page-21 .container .text h1 {
-  font-size: clamp(3rem, 10vw, 8rem);
+  font-size: clamp(3rem, 20vw, 13rem);
 }
 .page-21 .container .text p {
-  font-size: 1.4rem;
+  font-size: 3rem;
   padding: 0;
   padding-bottom: 3rem;
 }
@@ -283,17 +304,22 @@ nav .collapse form input {
   flex-direction: row;
   padding: 0 3rem;
 }
-.container-fluid .row form select {
-  padding: .6rem 2rem;
-  border-radius: 5px;
-  border: none;
-  background-color: #fff;
-  outline: none;
+.container-fluid .row form .select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.container-fluid .row form .select .dropdown {
+  margin: 0 .5rem;
+}
+.container-fluid .row form .select .dropdown .btn {
+  padding: .5rem 2rem;
 }
 .container-fluid .row form div input[type=text] {
-  padding: .6rem;
+  padding: 10px;
   font-size: 17px;
-  border: 1px solid grey;
+  border: none;
   float: left;
   width: 80%;
   background: #f1f1f1;
@@ -303,7 +329,7 @@ nav .collapse form input {
   float: left;
   width: 20%;
   padding: 10px;
-  background: #444444;
+  background: #868686;
   color: white;
   font-size: 17px;
   border: 1px solid grey;

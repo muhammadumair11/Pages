@@ -7,18 +7,21 @@
             @include flex(space-between, center, row);
             padding: 0 3rem;
 
-            select {
-                padding: .6rem 2rem;
-                border-radius: 5px;
-                border: none;
-                background-color: #fff;
-                outline: none;
+            .select {
+                @include flex();
+                .dropdown {
+                    margin: 0 .5rem;
+                .btn {
+                    padding: .5rem 2rem;
+                }
             }
+            }
+            
             div {
                 input[type=text] {
-                    padding: .6rem;
+                    padding: 10px;
                     font-size: 17px;
-                    border: 1px solid grey;
+                    border: none;
                     float: left;
                     width: 80%;
                     background: #f1f1f1;
@@ -28,7 +31,7 @@
                     float: left;
                     width: 20%;
                     padding: 10px;
-                    background: rgb(68, 68, 68);
+                    background: rgb(134, 134, 134);
                     color: white;
                     font-size: 17px;
                     border: 1px solid grey;
