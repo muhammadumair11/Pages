@@ -526,8 +526,12 @@ nav .collapse form button i {
 }
 .container-fluid.page-27 .row .container .text {
   color: white;
-  font-size: 1.3rem;
   margin: 2rem 0;
+}
+.container-fluid.page-27 .row .container .text .italic {
+  font-family: "Silas Sans Italic";
+  display: inline-block;
+  margin: 10px 0;
 }
 
 .container-fluid.page-28 {
@@ -583,4 +587,16 @@ nav .collapse form button i {
   color: white;
   font-size: 1.3rem;
   margin: 2rem 0;
+}
+.container-fluid.page-28 .row .side-content .text .col-text p {
+  font-family: "Silas Sans Italic";
+  font-size: 2rem;
+  color: #1ca6df;
+  position: relative;
+}
+.container-fluid.page-28 .row .side-content .text .col-text p span {
+  font-size: 20rem;
+  position: absolute;
+  top: -150px;
+  left: -120px;
 }

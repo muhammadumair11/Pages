@@ -62,8 +62,13 @@
       }
       .text {
         color: white;
-        font-size: 1.3rem;
         margin: 2rem 0 ;
+
+        .italic {
+          font-family: $italic;
+          display: inline-block;
+          margin: 10px 0;
+        }
       }
     }
   }

@@ -59,6 +59,21 @@
           font-size: 1.3rem;
           margin: 2rem 0 ;
         }
+        .col-text{
+          
+            p {
+              font-family: $italic;
+              font-size: 2rem;
+              color: #1ca6df;
+              position: relative;
+              span {
+                font-size: 20rem;
+                position: absolute;
+                top: -150px;
+                left: -120px;
+              }
+            }
+        }
       }
     }
   }
