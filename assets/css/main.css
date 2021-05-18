@@ -302,9 +302,9 @@ nav .collapse form button i {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  padding: 0 3rem;
 }
 .container-fluid .row form .select {
+  margin: 0 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -315,6 +315,13 @@ nav .collapse form button i {
 }
 .container-fluid .row form .select .dropdown .btn {
   padding: .5rem 2rem;
+}
+.container-fluid .row form .select .dropdown a {
+  color: #aaa;
+}
+.container-fluid .row form .select .dropdown a .all {
+  color: #000;
+  font-family: "Silas Sans Bold";
 }
 .container-fluid .row form div input[type=text] {
   padding: 10px;
@@ -387,7 +394,7 @@ nav .collapse form button i {
 }
 
 .container-fluid.page-26 {
-  background-color: #012ca1;
+  background-color: #203477;
 }
 .container-fluid.page-26 .container .headline h1 {
   font-size: clamp(3rem, 5vw, 4rem);
@@ -399,6 +406,12 @@ nav .collapse form button i {
   text-align: left;
   color: white;
   font-size: 1.3rem;
+}
+.container-fluid.page-26 .row form {
+  margin-left: 2rem;
+}
+.container-fluid.page-26 .row form .select .dropdown a {
+  color: #203477;
 }
 .container-fluid.page-26 .row .card {
   border: none;
@@ -436,7 +449,7 @@ nav .collapse form button i {
 }
 
 .container-fluid.page-27 {
-  background-color: #012ca1;
+  background-color: #2596be;
 }
 .container-fluid.page-27 .row {
   padding: 0;
@@ -497,7 +510,7 @@ nav .collapse form button i {
 }
 
 .container-fluid.page-28 {
-  background-color: #012ca1;
+  background-color: #203477;
 }
 .container-fluid.page-28 .headline h1 {
   font-size: clamp(3rem, 5vw, 4rem);

@@ -1,5 +1,5 @@
 .container-fluid.page-26 {
-  background-color: #012ca1;
+  background-color: $secondary-color;
   .container {
       .headline {
           h1 {
@@ -19,6 +19,17 @@
   }
   .row {
     
+    form {
+      margin-left: 2rem;
+      .select {
+        .dropdown {
+                a {
+                    color: $secondary-color;
+                    
+                }
+            }
+      }
+    }
     .card {
         border: none;
         margin: 1rem 0;
