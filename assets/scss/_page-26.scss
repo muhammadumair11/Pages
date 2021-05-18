@@ -49,10 +49,12 @@
 
         .text {
           margin: 0.7rem 0;
+          padding: 0;
           h1 {
             font-size: 2rem;
             color: #fff;
             font-family: $regular;
+            margin: 0;
           }
           P {
             margin: 0;

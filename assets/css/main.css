@@ -447,11 +447,13 @@ nav .collapse form button i {
 }
 .container-fluid.page-26 .row .card .content .text {
   margin: 0.7rem 0;
+  padding: 0;
 }
 .container-fluid.page-26 .row .card .content .text h1 {
   font-size: 2rem;
   color: #fff;
   font-family: "Silas Sans Regular";
+  margin: 0;
 }
 .container-fluid.page-26 .row .card .content .text P {
   margin: 0;
