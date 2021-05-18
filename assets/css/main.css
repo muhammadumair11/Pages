@@ -58,7 +58,7 @@
 .container .headline {
   text-align: center;
   padding: 2rem 0;
-  color: #00013b;
+  color: #1c2156;
 }
 .container .headline h1 {
   font-size: 4rem;
@@ -70,7 +70,7 @@
 .container .small-paragraph p {
   text-align: center;
   font-size: 1.2rem;
-  color: #00013b;
+  color: #1c2156;
   font-family: "Silas Sans Regular";
   font-weight: 500;
 }
@@ -108,13 +108,13 @@
   position: fixed;
   bottom: 0;
   left: 0;
-  background-color: #8d0000;
+  background-color: #9d162e;
   color: white;
   padding: 1rem 2rem;
 }
 
 nav {
-  background-color: #00013b;
+  background-color: #1c2156;
 }
 nav .navbar-brand {
   margin-left: 2rem;
@@ -132,10 +132,10 @@ nav .collapse form input {
   border: none;
   padding: .2rem 1rem;
   width: 6rem;
-  background-color: #7d9ecf;
+  background-color: #abcae9;
 }
 nav .collapse form input::placeholder {
-  color: #00013b;
+  color: #1c2156;
 }
 nav .collapse form button {
   background-color: transparent;
@@ -143,7 +143,7 @@ nav .collapse form button {
 }
 nav .collapse form button i {
   font-size: 1rem;
-  color: #00013b;
+  color: #1c2156;
   position: absolute;
   right: 28px;
   top: 23px;
@@ -183,7 +183,7 @@ nav .collapse form button i {
 }
 .page-18 .container {
   height: 100%;
-  color: #00013b;
+  color: #1c2156;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -209,7 +209,7 @@ nav .collapse form button i {
   background-repeat: no-repeat;
   background-position: left;
   background-size: 100% 100%;
-  background-color: #20347c;
+  background-color: #1e3278;
 }
 .page-19 .container {
   height: 100%;
@@ -243,7 +243,7 @@ nav .collapse form button i {
 }
 .page-20 .container {
   height: 100%;
-  color: #00013b;
+  color: #1c2156;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -364,7 +364,7 @@ nav .collapse form button i {
 }
 .container-fluid .row .card .text h1 {
   font-size: 1.5rem;
-  color: #0047bb;
+  color: #094dbc;
   font-family: "Silas Sans Bold";
 }
 .container-fluid .row .card .text P {
@@ -372,7 +372,7 @@ nav .collapse form button i {
   color: #272727;
 }
 .container-fluid .row .col-text blockquote {
-  color: #00013b;
+  color: #1c2156;
 }
 .container-fluid .row .col-text blockquote::before {
   content: '\201c';
@@ -380,7 +380,7 @@ nav .collapse form button i {
   position: absolute;
 }
 .container-fluid .row .col-text blockquote h1 {
-  color: #00013b;
+  color: #1c2156;
   padding: 2rem 0 0 8rem;
   font-size: clamp(1.2rem, 4vw, 3rem);
 }
@@ -425,11 +425,11 @@ nav .collapse form button i {
   margin-left: 2rem;
 }
 .container-fluid.page-26 .row form .select .dropdown {
-  background-color: rgba(255, 255, 255, 0.466);
+  background-color: #80a3dd;
   border-radius: 5px;
 }
 .container-fluid.page-26 .row form .select .dropdown a {
-  color: #203477;
+  color: #064bbc;
 }
 .container-fluid.page-26 .row .card {
   border: none;
