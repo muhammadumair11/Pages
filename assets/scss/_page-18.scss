@@ -16,10 +16,10 @@
             padding-top: 1rem;
             margin-left: -8rem;
             h1 {
-                font-size: clamp(3rem, 20vw, 15rem);
+                font-size: clamp(3rem, 20vw, 12rem);
             }
             p {
-                font-size: 3rem;
+                font-size: clamp(1rem, 5vw, 3rem);
                 padding: 0;
                 padding-bottom: 4rem;
             }

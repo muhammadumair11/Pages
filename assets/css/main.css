@@ -195,10 +195,10 @@ nav .collapse form button i {
   margin-left: -8rem;
 }
 .page-18 .container .text h1 {
-  font-size: clamp(3rem, 20vw, 15rem);
+  font-size: clamp(3rem, 20vw, 12rem);
 }
 .page-18 .container .text p {
-  font-size: 3rem;
+  font-size: clamp(1rem, 5vw, 3rem);
   padding: 0;
   padding-bottom: 4rem;
 }
@@ -209,7 +209,7 @@ nav .collapse form button i {
   background-repeat: no-repeat;
   background-position: left;
   background-size: 100% 100%;
-  background-color: #003f79;
+  background-color: #20347c;
 }
 .page-19 .container {
   height: 100%;
@@ -228,7 +228,7 @@ nav .collapse form button i {
 }
 .page-19 .container .text p {
   text-align: center;
-  font-size: 3rem;
+  font-size: clamp(1rem, 5vw, 3rem);
   padding: 0;
   padding-bottom: 3rem;
 }
@@ -257,7 +257,7 @@ nav .collapse form button i {
 }
 .page-20 .container .text p {
   text-align: center;
-  font-size: 3rem;
+  font-size: clamp(1rem, 5vw, 3rem);
   padding: 0;
   padding-bottom: 3rem;
 }
@@ -285,7 +285,7 @@ nav .collapse form button i {
   font-size: clamp(3rem, 20vw, 13rem);
 }
 .page-21 .container .text p {
-  font-size: 3rem;
+  font-size: clamp(1rem, 5vw, 3rem);
   padding: 0;
   padding-bottom: 3rem;
 }
