@@ -7,7 +7,7 @@
             @include flex(space-between, center, row);
             
             .select {
-                @include flex();
+                @include flex(flex-start);
                 .dropdown {
                     background-color: rgba(255, 255, 255, 0.466);
           border-radius: 5px;
@@ -17,6 +17,8 @@
                 }
             }
             .dropdown {
+                margin: 0;
+                margin-right: 10px;
                 a {
                     color: #aaa;
                     .all {
@@ -45,7 +47,7 @@
                     float: left;
                     width: 20%;
                     padding: 1rem;
-                    background: rgb(134, 134, 134);
+                    background: #aea7a3;
                     color: white;
                     font-size: 17px;
                     border: none;

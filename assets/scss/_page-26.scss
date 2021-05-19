@@ -1,7 +1,7 @@
 .container-fluid.page-26 {
   background-color: #0047bb;
       .text {
-        padding: 2rem 2rem ;
+        padding: 2rem .5rem ;
         .headline {
           h1 {
               font-size: clamp(3rem, 5vw, 4rem);
@@ -21,10 +21,12 @@
   .row {
     
     form {
-      margin-left: 2rem;
       .select {
+        @include flex(flex-start);
         .dropdown {
           background-color: #80a3dd;
+          margin: 0;
+          margin-left: .5rem;
           border-radius: 5px;
                 a {
                     color: #064bbc;
@@ -32,10 +34,23 @@
                 }
             }
       }
+      div {
+        input {
+        background-color: #80a3dd;
+        &::placeholder {
+          color: $primary-color;
+        }
+        }
+        button {
+          background-color: $primary-color;
+        }
+      }
+      
     }
     .card {
         border: none;
         margin: 1rem 0;
+        padding: 0 1.5rem;
         
         .content {
             background-color: #1e3278;
@@ -60,10 +75,11 @@
             margin: 0;
             color: rgba(231, 231, 231, 0.336);
             font-size: clamp(1rem, 4vw, 1.2rem);
-            font-family: $extra-bold;
+            font-family: $italic;
           }
           .tag {
             background-color: yellow;
+            font-family: $italic;
             position: absolute;
             padding: 0.5rem 1rem;
             top: 0;

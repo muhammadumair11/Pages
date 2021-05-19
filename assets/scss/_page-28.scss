@@ -24,14 +24,18 @@
           .info {
             @include flex(flex-end, flex-start, column);
             margin: 1rem 0 ;
-            i,a {
-              color: rgb(0, 155, 245);
-            }
+            
             i {
-              font-size: 2rem;
+              font-size: 1.2rem;
+              background-color: rgb(0, 155, 245);
+              padding: 5px;
+              border-radius: 100px;
+              transform: rotate(-45deg);
+              color: $primary-color;
               margin: 0 5px 0 0 ;
             }
             a {
+              color: rgb(0, 155, 245);
               font-size: 1.4rem;
             }
             hr {
@@ -54,10 +58,11 @@
     }
     .side-content {
       .text {
+        color: white;
         p {
-          color: white;
-          font-size: 1.5rem;
+          font-size: 1.2rem;
           margin: 2rem 0 ;
+          padding: 0;
         }
         .col-text{
           

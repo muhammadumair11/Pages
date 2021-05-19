@@ -336,7 +336,7 @@ nav .collapse form button i {
 }
 .container-fluid .row form .select {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: row;
 }
@@ -347,6 +347,10 @@ nav .collapse form button i {
 }
 .container-fluid .row form .select .dropdown .btn {
   padding: 1rem 1rem;
+}
+.container-fluid .row form .select .dropdown {
+  margin: 0;
+  margin-right: 10px;
 }
 .container-fluid .row form .select .dropdown a {
   color: #aaa;
@@ -371,7 +375,7 @@ nav .collapse form button i {
   float: left;
   width: 20%;
   padding: 1rem;
-  background: #868686;
+  background: #aea7a3;
   color: white;
   font-size: 17px;
   border: none;
@@ -440,7 +444,7 @@ nav .collapse form button i {
   background-color: #0047bb;
 }
 .container-fluid.page-26 .text {
-  padding: 2rem 2rem;
+  padding: 2rem 0.5rem;
 }
 .container-fluid.page-26 .text .headline h1 {
   font-size: clamp(3rem, 5vw, 4rem);
@@ -453,19 +457,34 @@ nav .collapse form button i {
   color: white;
   font-size: 1.6rem;
 }
-.container-fluid.page-26 .row form {
-  margin-left: 2rem;
+.container-fluid.page-26 .row form .select {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
 }
 .container-fluid.page-26 .row form .select .dropdown {
   background-color: #80a3dd;
+  margin: 0;
+  margin-left: .5rem;
   border-radius: 5px;
 }
 .container-fluid.page-26 .row form .select .dropdown a {
   color: #064bbc;
 }
+.container-fluid.page-26 .row form div input {
+  background-color: #80a3dd;
+}
+.container-fluid.page-26 .row form div input::placeholder {
+  color: #1c2156;
+}
+.container-fluid.page-26 .row form div button {
+  background-color: #1c2156;
+}
 .container-fluid.page-26 .row .card {
   border: none;
   margin: 1rem 0;
+  padding: 0 1.5rem;
 }
 .container-fluid.page-26 .row .card .content {
   background-color: #1e3278;
@@ -491,10 +510,11 @@ nav .collapse form button i {
   margin: 0;
   color: rgba(231, 231, 231, 0.336);
   font-size: clamp(1rem, 4vw, 1.2rem);
-  font-family: "Silas Sans Extra Bold";
+  font-family: "Silas Sans Italic";
 }
 .container-fluid.page-26 .row .card .content .text .tag {
   background-color: yellow;
+  font-family: "Silas Sans Italic";
   position: absolute;
   padding: 0.5rem 1rem;
   top: 0;
@@ -535,14 +555,17 @@ nav .collapse form button i {
   align-items: flex-start;
   flex-direction: column;
 }
-.container-fluid.page-27 .row .container .brand-info .row .info i, .container-fluid.page-27 .row .container .brand-info .row .info a {
-  color: #009bf5;
-}
 .container-fluid.page-27 .row .container .brand-info .row .info i {
-  font-size: 2rem;
+  font-size: 1.2rem;
+  background-color: #009bf5;
+  padding: 5px;
+  border-radius: 100px;
+  transform: rotate(-45deg);
+  color: #1c2156;
   margin: 0 5px 0 0;
 }
 .container-fluid.page-27 .row .container .brand-info .row .info a {
+  color: #009bf5;
   font-size: 1.4rem;
 }
 .container-fluid.page-27 .row .container .brand-info .row .info hr {
@@ -595,14 +618,17 @@ nav .collapse form button i {
   flex-direction: column;
   margin: 1rem 0;
 }
-.container-fluid.page-28 .row .container .brand-info .row .info i, .container-fluid.page-28 .row .container .brand-info .row .info a {
-  color: #009bf5;
-}
 .container-fluid.page-28 .row .container .brand-info .row .info i {
-  font-size: 2rem;
+  font-size: 1.2rem;
+  background-color: #009bf5;
+  padding: 5px;
+  border-radius: 100px;
+  transform: rotate(-45deg);
+  color: #1c2156;
   margin: 0 5px 0 0;
 }
 .container-fluid.page-28 .row .container .brand-info .row .info a {
+  color: #009bf5;
   font-size: 1.4rem;
 }
 .container-fluid.page-28 .row .container .brand-info .row .info hr {
@@ -619,10 +645,13 @@ nav .collapse form button i {
   color: white;
   font-size: 1rem;
 }
-.container-fluid.page-28 .row .side-content .text p {
+.container-fluid.page-28 .row .side-content .text {
   color: white;
-  font-size: 1.5rem;
+}
+.container-fluid.page-28 .row .side-content .text p {
+  font-size: 1.2rem;
   margin: 2rem 0;
+  padding: 0;
 }
 .container-fluid.page-28 .row .side-content .text .col-text p {
   font-family: "Silas Sans Italic";
