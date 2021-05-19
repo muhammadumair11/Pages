@@ -11,11 +11,18 @@
         color: $primary-color;
         @include flex(center, flex-start, column);
         text-align: left;
+        margin: 0 10rem;
 
         .text {
             padding-top: 1rem;
             h1 {
-                font-size: clamp(3rem, 20vw, 15rem);
+                font-size: clamp(3rem, 22vw, 15rem);
+                span {
+                    font-size: 8rem;
+                    display: inline-block;
+                    position: relative;
+                    bottom: 40px;
+                }
             }
             p {
                 text-align: center;

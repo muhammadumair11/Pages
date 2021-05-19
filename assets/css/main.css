@@ -150,11 +150,15 @@ nav .collapse form button i {
 }
 
 .page-17 {
-  height: 90vh;
+  height: 95vh;
   background: url(../img/growth\ and\ innovation\ -\ 1\ -\ iStock-1201050386.jpg);
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
 }
 .page-17 .container {
   height: 100%;
@@ -164,18 +168,22 @@ nav .collapse form button i {
   align-items: flex-end;
   flex-direction: column;
   text-align: right;
+  margin: 0 10rem;
+}
+.page-17 .container .text {
+  width: 100%;
 }
 .page-17 .container .text h1 {
-  font-size: clamp(3rem, 10vw, 20rem);
+  font-size: clamp(3rem, 12vw, 20rem);
 }
 .page-17 .container .text p {
-  font-size: 2.7rem;
+  font-size: clamp(2rem, 10vw, 2.7rem);
   padding: 0;
   padding-bottom: 4rem;
 }
 
 .page-18 {
-  height: 90vh;
+  height: 95vh;
   background: url(../img/growth\ and\ innovation\ -\ 2.svg);
   background-repeat: no-repeat;
   background-position: left;
@@ -189,13 +197,16 @@ nav .collapse form button i {
   align-items: flex-start;
   flex-direction: column;
   text-align: left;
-}
-.page-18 .container .text {
-  padding-top: 1rem;
-  margin-left: -8rem;
+  margin: 0 5rem;
 }
 .page-18 .container .text h1 {
   font-size: clamp(3rem, 20vw, 12rem);
+}
+.page-18 .container .text h1 span {
+  font-size: 8rem;
+  display: inline-block;
+  position: relative;
+  bottom: 50px;
 }
 .page-18 .container .text p {
   font-size: clamp(1rem, 5vw, 3rem);
@@ -204,7 +215,7 @@ nav .collapse form button i {
 }
 
 .page-19 {
-  height: 90vh;
+  height: 95vh;
   background: url(../img/growth\ and\ innovation\ -\ 3.svg);
   background-repeat: no-repeat;
   background-position: left;
@@ -225,11 +236,17 @@ nav .collapse form button i {
 }
 .page-19 .container .text h1 {
   text-align: center;
-  font-size: clamp(3rem, 10vw, 20rem);
+  font-size: clamp(3rem, 12vw, 20rem);
+}
+.page-19 .container .text h1 span {
+  font-size: 8rem;
+  display: inline-block;
+  position: relative;
+  bottom: 35px;
 }
 .page-19 .container .text p {
   text-align: center;
-  font-size: clamp(1rem, 5vw, 3rem);
+  font-size: clamp(1rem, 5vw, 2rem);
   padding: 0;
   padding-bottom: 3rem;
 }
@@ -249,12 +266,19 @@ nav .collapse form button i {
   align-items: flex-start;
   flex-direction: column;
   text-align: left;
+  margin: 0 10rem;
 }
 .page-20 .container .text {
   padding-top: 1rem;
 }
 .page-20 .container .text h1 {
-  font-size: clamp(3rem, 20vw, 15rem);
+  font-size: clamp(3rem, 22vw, 15rem);
+}
+.page-20 .container .text h1 span {
+  font-size: 8rem;
+  display: inline-block;
+  position: relative;
+  bottom: 40px;
 }
 .page-20 .container .text p {
   text-align: center;
@@ -264,29 +288,35 @@ nav .collapse form button i {
 }
 
 .page-21 {
-  height: 90vh;
+  height: 95vh;
   background: url(../img/growth\ and\ innovation\ -\ 5.svg);
   background-repeat: no-repeat;
   background-position: left;
   background-size: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
 }
 .page-21 .container {
   height: 100%;
   color: #fff;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-end;
   flex-direction: column;
   text-align: right;
+  text-align: right;
+  margin: 0 8rem;
 }
 .page-21 .container .text {
-  padding-top: 1rem;
+  padding-top: 5rem;
 }
 .page-21 .container .text h1 {
-  font-size: clamp(3rem, 20vw, 13rem);
+  font-size: clamp(3rem, 20vw, 15rem);
 }
 .page-21 .container .text p {
-  font-size: clamp(1rem, 5vw, 3rem);
+  font-size: clamp(1rem, 5vw, 3.5rem);
   padding: 0;
   padding-bottom: 3rem;
 }
@@ -309,7 +339,6 @@ nav .collapse form button i {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  margin: 0 0 0 1.2rem;
 }
 .container-fluid .row form .select .dropdown {
   background-color: rgba(255, 255, 255, 0.466);
@@ -334,6 +363,9 @@ nav .collapse form button i {
   width: 80%;
   background: #f1f1f1;
   border-radius: 5px 0px 0 5px;
+}
+.container-fluid .row form div input[type=text]::placeholder {
+  font-family: "Silas Sans Italic";
 }
 .container-fluid .row form div button {
   float: left;
@@ -480,8 +512,11 @@ nav .collapse form button i {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+.container-fluid.page-27 .row .container .headline {
+  padding-bottom: 0;
+}
 .container-fluid.page-27 .row .container .headline h1 {
-  font-size: clamp(3rem, 5vw, 4rem);
+  font-size: clamp(3rem, 5vw, 5rem);
   text-align: left;
   color: white;
 }
@@ -489,7 +524,7 @@ nav .collapse form button i {
   padding: 0;
   text-align: left;
   color: white;
-  font-size: 1.3rem;
+  font-size: 2.2rem;
 }
 .container-fluid.page-27 .row .container .brand-info .row .img img {
   width: 100%;
@@ -516,17 +551,18 @@ nav .collapse form button i {
   margin: .5rem 0;
 }
 .container-fluid.page-27 .row .container .brand-info .row .info .title {
-  font-size: 1rem;
+  font-size: 1.4rem;
   color: #aaa;
 }
 .container-fluid.page-27 .row .container .brand-info .row .info .status {
   margin: 0 .5rem;
   color: white;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .container-fluid.page-27 .row .container .text {
   color: white;
   margin: 2rem 0;
+  font-size: 1.1rem;
 }
 .container-fluid.page-27 .row .container .text .italic {
   font-family: "Silas Sans Italic";
@@ -538,7 +574,7 @@ nav .collapse form button i {
   background-color: #1e3278;
 }
 .container-fluid.page-28 .headline h1 {
-  font-size: clamp(3rem, 5vw, 4rem);
+  font-size: clamp(3rem, 5vw, 5rem);
   text-align: left;
   color: white;
   padding: 2rem 2rem;
@@ -585,7 +621,7 @@ nav .collapse form button i {
 }
 .container-fluid.page-28 .row .side-content .text p {
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin: 2rem 0;
 }
 .container-fluid.page-28 .row .side-content .text .col-text p {

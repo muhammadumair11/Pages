@@ -8,7 +8,6 @@
             
             .select {
                 @include flex();
-                margin: 0 0 0 1.2rem;
                 .dropdown {
                     background-color: rgba(255, 255, 255, 0.466);
           border-radius: 5px;
@@ -37,6 +36,10 @@
                     width: 80%;
                     background: #f1f1f1;
                     border-radius: 5px 0px 0 5px;
+
+                    &::placeholder {
+                        font-family: $italic;
+                    }
                 }
                 button {
                     float: left;

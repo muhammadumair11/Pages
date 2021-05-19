@@ -1,5 +1,5 @@
 .page-19 {
-    height: 90vh;
+    height: 95vh;
     background: url(../img/growth\ and\ innovation\ -\ 3.svg);
     background-repeat: no-repeat;
     background-position: left;
@@ -17,11 +17,17 @@
             padding-top: 1rem;
             h1 {
                 text-align: center;
-                font-size: clamp(3rem, 10vw, 20rem);
+                font-size: clamp(3rem, 12vw, 20rem);
+                span {
+                    font-size: 8rem;
+                    display: inline-block;
+                    position: relative;
+                    bottom: 35px;
+                }
             }
             p {
                 text-align: center;
-                font-size: clamp(1rem, 5vw, 3rem);
+                font-size: clamp(1rem, 5vw, 2rem);
                 padding: 0;
                 padding-bottom: 3rem;
             }
